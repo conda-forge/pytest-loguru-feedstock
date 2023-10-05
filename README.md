@@ -1,11 +1,11 @@
-About pytest-loguru
-===================
+About pytest-loguru-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-loguru-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mcarans/pytest-loguru
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-loguru-feedstock/blob/main/LICENSE.txt)
 
 Summary: A pytest plugin to add support for loguru to pytest's caplog fixture
 
