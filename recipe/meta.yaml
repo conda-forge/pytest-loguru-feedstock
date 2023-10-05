@@ -23,8 +23,8 @@ requirements:
     - wheel
   run:
     - python >=3.6
-    - pytest
-    - loguru
+    - pytest >=7.0.0
+    - loguru >=0.7.2
 
 test:
   imports:
