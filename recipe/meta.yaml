@@ -16,13 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
-    - setuptools >=45
-    - setuptools_scm >=6.2
+    - hatchling
+    - hatch-vcs
     - wheel
   run:
-    - python >=3.6
+    - python >=3.8
     - pytest >=7.0.0
     - loguru >=0.7.2
 
