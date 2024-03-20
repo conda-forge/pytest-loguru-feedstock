@@ -1,13 +1,13 @@
 {% set name = "pytest-loguru" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9bf2d5e95d9bba88ae5aa78e81ed835f96cbc092dbc5bdc929a0882f04516eaa
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 0d9e4e72ae9bfd92f774c666e7353766af11b0b78edd59c290e89be116050f03
 
 build:
   number: 0
